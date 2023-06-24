@@ -1,0 +1,14 @@
+.homeContainer {
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .rightbar {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sidebar {
+    display: none;
+  }
+}
